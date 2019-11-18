@@ -2,7 +2,9 @@
   "name": "wolt-opening-hours-assignment",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rikutiira.github.io/opening-hours",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "prop-types": "^15.7.2",
     "ramda": "^0.26.1",
     "react": "^16.11.0",
@@ -11,6 +13,8 @@
     "styled-components": "^4.4.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
