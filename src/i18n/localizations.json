@@ -1,0 +1,17 @@
+{
+  "weekdays": {
+    "monday": { "en": "Monday" },
+    "tuesday": { "en": "Tuesday" },
+    "wednesday": { "en": "Wednesday" },
+    "thursday": { "en": "Thursday" },
+    "friday": { "en": "Friday" },
+    "saturday": { "en": "Saturday" },
+    "sunday": { "en": "Sunday" }
+  },
+  "today": {
+    "en": "Today"
+  },
+  "openingHours": {
+    "en": "Opening hours"
+  }
+}
